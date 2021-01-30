@@ -64,7 +64,8 @@ export default class OrderApi {
       };
       let queryParams = {
         'limit': opts['limit'],
-        'offset': opts['offset']
+        'offset': opts['offset'],
+        'master_id': opts['master_id'] ? opts['master_id'] : null
       };
       let headerParams = {
       };
